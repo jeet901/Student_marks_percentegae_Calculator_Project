@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AWD project</title>
+<link rel="stylesheet" href="style.css">
+<script src="index.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+<h2>Student Marks Percentage Calculator</h2>
+
+<input type="number" id="math" placeholder="Mathematics Marks"><br>
+<input type="number" id="science" placeholder="Science Marks"><br>
+<input type="number" id="english" placeholder="English Marks"><br>
+<input type="number" id="computer" placeholder="Computer Marks"><br>
+<input type="number" id="social" placeholder="Social Studies Marks"><br>
+
+<button onclick="calculate()">Calculate Result</button>
+<button onclick="resetData()">Reset</button>
+
+<p id="message"></p>
+
+<table id="resultTable" style="display:none;">
+<tr>
+<th>Subject</th>
+<th>Marks</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Mathematics</td>
+<td id="mathMarks"></td>
+<td id="mathStatus"></td>
+</tr>
+
+<tr>
+<td>Science</td>
+<td id="scienceMarks"></td>
+<td id="scienceStatus"></td>
+</tr>
+
+<tr>
+<td>English</td>
+<td id="englishMarks"></td>
+<td id="englishStatus"></td>
+</tr>
+
+<tr>
+<td>Computer</td>
+<td id="computerMarks"></td>
+<td id="computerStatus"></td>
+</tr>
+
+<tr>
+<td>Social Studies</td>
+<td id="socialMarks"></td>
+<td id="socialStatus"></td>
+</tr>
+</table>
+
+<h3 id="total"></h3>
+<h3 id="percentage"></h3>
+<h3 id="grade"></h3>
+<h3 id="finalResult"></h3>
+
+</div>
+
+</body>
+</html>

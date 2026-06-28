@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    text-align: center;
+}
+
+.container {
+    background: white;
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    margin: 6px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    padding: 6px;
+}
